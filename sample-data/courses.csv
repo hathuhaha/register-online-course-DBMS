@@ -1,0 +1,17 @@
+Course ID, Course Name, Description
+crs00000,Mathematical Statistics,advanced study of statistical theory probability distributions and mathematical proofs
+crs00001,Machine Learning,introduction to predictive modeling supervised and unsupervised learning algorithms
+crs00002,Discrete Mathematics,study of mathematical structures that are fundamentally discrete rather than continuous
+crs00003,Network Security,protecting network infrastructure data integrity and privacy from digital threats
+crs00004,Fundamentals of Programming,core concepts of software development logic building and basic syntax
+crs00005,Database Systems,design implementation and management of relational and non-relational databases
+crs00006,Monetary and Financial Theory,analysis of money banking systems and financial market dynamics
+crs00007,Macroeconomics,study of national and global economic systems growth and fiscal policies
+crs00008,Microeconomics,analysis of individual and firm behavior in market economies and resource allocation
+crs00009,Accounting Principles,fundamental methods for recording classifying and reporting financial data
+crs00010,Financial Management,strategic planning and management of organizational capital and investments
+crs00011,Web Development,building modern responsive websites using frontend and backend technologies
+crs00012,Data Structures and Algorithms,optimizing problem solving through efficient data organization and computational logic
+crs00013,Introduction to Artificial Intelligence,foundational overview of smart systems search strategies and computer logic
+crs00014,Commercial Banking,principles and operations of modern commercial bank services and risk management
+crs00015,Investment Analysis,methods for evaluating financial assets risks and portfolio performance

@@ -1,0 +1,111 @@
+{% extends 'layout.html' %}
+{% block header_title %}Cổng Đăng Ký Học Phần{% endblock %}
+{% block content %}
+
+<!-- KHUNG TÌM KIẾM MSSV -->
+<div class="row justify-content-center mb-4">
+    <div class="col-md-6">
+        <div class="glass-card text-center p-4">
+            <h4 class="fw-bold mb-3"><i class='bx bx-search-alt'></i> Nhập mã sinh viên</h4>
+            <form action="/enroll" method="GET" class="d-flex gap-2">
+                <input type="text" name="learner_id" class="form-control form-control-lg bg-light" 
+                       placeholder="Ví dụ: st6500000" value="{{ search_id or '' }}" required>
+                <button type="submit" class="btn btn-primary btn-lg px-4 shadow-sm">Tìm</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+{% if student %}
+<div class="row">
+    <!-- CỘT TRÁI: THÔNG TIN VÀ CÁC MÔN ĐÃ ĐĂNG KÝ -->
+    <div class="col-md-4">
+        <div class="glass-card mb-4 border-top border-4 border-success">
+            <h5 class="fw-bold"><i class='bx bxs-id-card text-success'></i> Thông tin Sinh viên</h5>
+            <hr>
+            <p class="mb-1"><strong>MSSV:</strong> <span class="text-primary">{{ student.LearnerID }}</span></p>
+            <p class="mb-1"><strong>Họ Tên:</strong> {{ student.LearnerName }}</p>
+            <p class="mb-1"><strong>Email:</strong> {{ student.Email }}</p>
+            <p class="mb-0"><strong>SĐT:</strong> {{ student.PhoneNumber }}</p>
+        </div>
+
+        <div class="glass-card">
+            <h5 class="fw-bold"><i class='bx bxs-calendar-check text-info'></i> TKB Đã Đăng Ký</h5>
+            <hr>
+            {% if enrolled_classes %}
+                <ul class="list-group list-group-flush">
+                {% for ec in enrolled_classes %}
+                    <li class="list-group-item px-0 bg-transparent">
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div>
+                                <span class="fw-bold text-dark">{{ ec.CourseName }}</span><br>
+                                <small class="text-muted"><i class='bx bx-time'></i> Ca: {{ ec.Shift }} | GV: {{ ec.InstructorName }}</small>
+                            </div>
+                            <!-- Nút Hủy Học Phần -->
+                            <form action="/unenroll" method="POST">
+                                <input type="hidden" name="enroll_id" value="{{ ec.EnrollmentID }}">
+                                <input type="hidden" name="learner_id" value="{{ student.LearnerID }}">
+                                <button class="btn btn-sm btn-outline-danger" title="Hủy đăng ký"><i class='bx bx-trash'></i></button>
+                            </form>
+                        </div>
+                    </li>
+                {% endfor %}
+                </ul>
+            {% else %}
+                <p class="text-muted fst-italic">Chưa đăng ký môn nào.</p>
+            {% endif %}
+        </div>
+    </div>
+
+    <!-- CỘT PHẢI: DANH SÁCH MÔN HỌC (ACCORDION DẠNG XỔ XUỐNG) -->
+    <div class="col-md-8">
+        <div class="glass-card">
+            <h5 class="fw-bold mb-4"><i class='bx bxs-book-open text-primary'></i> Danh sách các lớp đang mở</h5>
+            
+            <div class="accordion" id="coursesAccordion">
+                {% for course_id, data in grouped_courses.items() %}
+                <div class="accordion-item border-0 mb-2 shadow-sm rounded">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed fw-bold rounded bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_{{ course_id }}">
+                            {{ data.CourseName }} ({{ course_id }})
+                        </button>
+                    </h2>
+                    <div id="collapse_{{ course_id }}" class="accordion-collapse collapse" data-bs-parent="#coursesAccordion">
+                        <div class="accordion-body p-0">
+                            <table class="table table-hover mb-0 align-middle">
+                                <thead class="table-light">
+                                    <tr>
+                                        <th class="ps-3">Mã Lớp</th>
+                                        <th>Ca Học</th>
+                                        <th>Giảng viên</th>
+                                        <th>Thao tác</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for cls in data.classes %}
+                                    <tr>
+                                        <td class="ps-3 fw-bold text-secondary">{{ cls.AssignmentID }}</td>
+                                        <td><span class="badge bg-warning text-dark">{{ cls.Shift }}</span></td>
+                                        <td>{{ cls.InstructorName }}</td>
+                                        <td>
+                                            <form action="/enroll_action" method="POST" class="m-0">
+                                                <input type="hidden" name="learner_id" value="{{ student.LearnerID }}">
+                                                <input type="hidden" name="assignment_id" value="{{ cls.AssignmentID }}">
+                                                <button type="submit" class="btn btn-sm btn-primary">Đăng ký +</button>
+                                            </form>
+                                        </td>
+                                    </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+
+        </div>
+    </div>
+</div>
+{% endif %}
+{% endblock %}

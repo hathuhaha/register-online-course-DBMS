@@ -1,0 +1,161 @@
+lecture_id,course_id,title,content
+crs000_lec00,crs00000,introduction to probability,basic concepts of probability theory and its applications.
+crs000_lec01,crs00000,random variables,understanding discrete and continuous random variables.
+crs000_lec02,crs00000,probability distributions,overview of normal  binomial  and poisson distributions.
+crs000_lec03,crs00000,expectation and variance,calculating mean and spread in statistical data.
+crs000_lec04,crs00000,sampling distributions,properties of statistics computed from random samples.
+crs000_lec05,crs00000,central limit theorem,why the normal distribution is central to statistics.
+crs000_lec06,crs00000,estimation theory,point and interval estimation for population parameters.
+crs000_lec07,crs00000,hypothesis testing,logic and methods for testing statistical claims.
+crs000_lec08,crs00000,confidence intervals,how to construct and interpret statistical intervals.
+crs000_lec09,crs00000,regression analysis,modeling relationships between variables using statistics.
+crs001_lec00,crs00001,intro to machine learning,basic definitions and the machine learning pipeline.
+crs001_lec01,crs00001,linear regression,modeling continuous outcomes with simple linear equations.
+crs001_lec02,crs00001,logistic regression,classification techniques for binary outcome variables.
+crs001_lec03,crs00001,decision trees,building hierarchical models for data classification.
+crs001_lec04,crs00001,random forests,using ensembles of trees to improve prediction accuracy.
+crs001_lec05,crs00001,support vector machines,finding optimal hyperplanes for data separation.
+crs001_lec06,crs00001,k-nearest neighbors,simple instance-based learning for classification tasks.
+crs001_lec07,crs00001,neural networks,introduction to biological-inspired computing models.
+crs001_lec08,crs00001,clustering basics,unsupervised learning methods like k-means clustering.
+crs001_lec09,crs00001,model evaluation,using metrics like accuracy and f1-score to test models.
+crs002_lec00,crs00002,logic and proofs,fundamental principles of mathematical logic and proof techniques.
+crs002_lec01,crs00002,set theory,understanding sets  subsets  and operations on sets.
+crs002_lec02,crs00002,functions and relations,mapping elements between sets and their properties.
+crs002_lec03,crs00002,algorithms and complexity,basics of algorithmic efficiency and big o notation.
+crs002_lec04,crs00002,number theory,study of integers and their mathematical properties.
+crs002_lec05,crs00002,mathematical induction,proving statements for all natural numbers.
+crs002_lec06,crs00002,counting and combinatorics,methods for counting arrangements and selections.
+crs002_lec07,crs00002,discrete probability,applying probability to finite sample spaces.
+crs002_lec08,crs00002,graph theory,basics of nodes  edges  and graph connectivity.
+crs002_lec09,crs00002,trees in discrete math,properties and applications of tree structures.
+crs003_lec00,crs00003,intro to network security,overview of threats and defense mechanisms in networks.
+crs003_lec01,crs00003,cryptography basics,fundamentals of encryption and decryption algorithms.
+crs003_lec02,crs00003,authentication protocols,verifying identities in digital communication systems.
+crs003_lec03,crs00003,firewalls and vpns,securing network perimeters and private connections.
+crs003_lec04,crs00003,intrusion detection,identifying and responding to unauthorized network access.
+crs003_lec05,crs00003,wireless security,securing wifi networks from eavesdropping and attacks.
+crs003_lec06,crs00003,malware analysis,understanding viruses  worms  and trojan horses.
+crs003_lec07,crs00003,web security,protecting websites from sql injection and xss.
+crs003_lec08,crs00003,network forensics,analyzing network traffic for evidence of attacks.
+crs003_lec09,crs00003,security policies,creating rules and guidelines for organizational security.
+crs004_lec00,crs00004,programming basics,introduction to variables  types  and basic syntax.
+crs004_lec01,crs00004,control flow,using if-statements and loops to control execution.
+crs004_lec02,crs00004,functions and scope,modularizing code into reusable functional blocks.
+crs004_lec03,crs00004,data structures intro,overview of lists  arrays  and basic collections.
+crs004_lec04,crs00004,input and output,handling user input and displaying results.
+crs004_lec05,crs00004,error handling,managing exceptions and debugging program crashes.
+crs004_lec06,crs00004,file handling,reading from and writing to local files.
+crs004_lec07,crs00004,recursion,concept of functions calling themselves to solve problems.
+crs004_lec08,crs00004,object oriented intro,basics of classes and objects in programming.
+crs004_lec09,crs00004,project structure,best practices for organizing small software projects.
+crs005_lec00,crs00005,intro to databases,understanding data storage and management systems.
+crs005_lec01,crs00005,relational model,basics of tables  rows  and primary keys.
+crs005_lec02,crs00005,sql basics,writing simple select queries to retrieve data.
+crs005_lec03,crs00005,data normalization,organizing data to reduce redundancy and errors.
+crs005_lec04,crs00005,advanced sql,using joins and subqueries for complex data.
+crs005_lec05,crs00005,database design,creating entity relationship diagrams for systems.
+crs005_lec06,crs00005,transactions,ensuring data integrity with commit and rollback.
+crs005_lec07,crs00005,indexing and performance,speeding up queries with efficient indexing.
+crs005_lec08,crs00005,nosql intro,overview of non-relational database architectures.
+crs005_lec09,crs00005,database security,managing user permissions and data encryption.
+crs006_lec00,crs00006,monetary system,overview of money and its role in economics.
+crs006_lec01,crs00006,central banking,functions and goals of central bank institutions.
+crs006_lec02,crs00006,interest rates,how interest rates are determined and their impact.
+crs006_lec03,crs00006,monetary policy,tools used by banks to control money supply.
+crs006_lec04,crs00006,financial markets,introduction to bond and stock market dynamics.
+crs006_lec05,crs00006,inflation and deflation,causes and consequences of price level changes.
+crs006_lec06,crs00006,exchange rates,mechanisms of currency valuation in global markets.
+crs006_lec07,crs00006,financial crises,history and causes of major economic downturns.
+crs006_lec08,crs00006,banking regulation,rules for maintaining stability in financial systems.
+crs006_lec09,crs00006,digital currency,impact of cryptocurrencies on modern finance.
+crs007_lec00,crs00007,macroeconomic indicators,measuring gdp  inflation  and unemployment rates.
+crs007_lec01,crs00007,aggregate demand,understanding total spending in the national economy.
+crs007_lec02,crs00007,aggregate supply,factors affecting total production of goods/services.
+crs007_lec03,crs00007,fiscal policy,government spending and taxation to influence growth.
+crs007_lec04,crs00007,economic growth,long-term trends in national productive capacity.
+crs007_lec05,crs00007,business cycles,patterns of expansion and contraction in economies.
+crs007_lec06,crs00007,international trade,benefits and barriers to global commodity exchange.
+crs007_lec07,crs00007,balance of payments,tracking a nation's transactions with the world.
+crs007_lec08,crs00007,income distribution,analyzing wealth inequality within macro systems.
+crs007_lec09,crs00007,globalization,impact of integrated markets on national economies.
+crs008_lec00,crs00008,supply and demand,basic model of price determination in markets.
+crs008_lec01,crs00008,consumer behavior,how individuals make choices to maximize utility.
+crs008_lec02,crs00008,elasticity,measuring responsiveness of demand to price changes.
+crs008_lec03,crs00008,production costs,analyzing fixed and variable costs for firms.
+crs008_lec04,crs00008,perfect competition,market structure with many small price-taking firms.
+crs008_lec05,crs00008,monopoly,understanding market power and single-seller dynamics.
+crs008_lec06,crs00008,oligopoly,competition between a small number of large firms.
+crs008_lec07,crs00008,game theory,strategic decision making in competitive scenarios.
+crs008_lec08,crs00008,labor markets,how wages and employment levels are determined.
+crs008_lec09,crs00008,market failures,situations where free markets yield inefficient outcomes.
+crs009_lec00,crs00009,accounting basics,the accounting equation and basic financial terms.
+crs009_lec01,crs00009,double entry system,recording transactions using debits and credits.
+crs009_lec02,crs00009,journal entries,primary recording of business events in journals.
+crs009_lec03,crs00009,ledger and trial balance,organizing accounts and checking for errors.
+crs009_lec04,crs00009,financial statements,preparing balance sheets and income statements.
+crs009_lec05,crs00009,accrual vs cash basis,different methods for recognizing revenue and expense.
+crs009_lec06,crs00009,depreciation,accounting for the wear and tear of assets.
+crs009_lec07,crs00009,inventory systems,methods for tracking and valuing business stock.
+crs009_lec08,crs00009,internal controls,safeguarding assets and ensuring data accuracy.
+crs009_lec09,crs00009,ethics in accounting,standards for professional integrity and reporting.
+crs010_lec00,crs00010,financial goals,overview of wealth maximization and firm objectives.
+crs010_lec01,crs00010,time value of money,concepts of present and future value of cash.
+crs010_lec02,crs00010,risk and return,measuring the relationship between risk and profit.
+crs010_lec03,crs00010,capital budgeting,evaluating long-term investment opportunities.
+crs010_lec04,crs00010,cost of capital,determining the expense of financing business operations.
+crs010_lec05,crs00010,working capital,managing short-term assets and liabilities.
+crs010_lec06,crs00010,dividend policy,deciding how much profit to pay to shareholders.
+crs010_lec07,crs00010,capital structure,balancing debt and equity for optimal value.
+crs010_lec08,crs00010,financial forecasting,predicting future cash flows and capital needs.
+crs010_lec09,crs00010,mergers and acquisitions,strategies for corporate growth and restructuring.
+crs011_lec00,crs00011,html fundamentals,building the structure of web pages with tags.
+crs011_lec01,crs00011,css styling,applying colors  fonts  and layouts to websites.
+crs011_lec02,crs00011,responsive design,making sites work on mobile and desktop screens.
+crs011_lec03,crs00011,javascript basics,adding interactivity and logic to the frontend.
+crs011_lec04,crs00011,dom manipulation,changing web content dynamically with script.
+crs011_lec05,crs00011,backend intro,overview of server-side programming and apis.
+crs011_lec06,crs00011,web frameworks,using tools like react or vue for development.
+crs011_lec07,crs00011,database integration,connecting web apps to data storage systems.
+crs011_lec08,crs00011,web security basics,protecting apps from common online threats.
+crs011_lec09,crs00011,deployment,hosting websites on the cloud for public access.
+crs012_lec00,crs00012,intro to algorithms,understanding steps to solve computational problems.
+crs012_lec01,crs00012,complexity analysis,measuring time and space efficiency of code.
+crs012_lec02,crs00012,sorting algorithms,methods for arranging data in specific orders.
+crs012_lec03,crs00012,linked lists,dynamic data structures for efficient insertions.
+crs012_lec04,crs00012,stacks and queues,linear structures for managing data flow.
+crs012_lec05,crs00012,hash tables,storing data for near-instant retrieval by key.
+crs012_lec06,crs00012,binary search trees,hierarchical structures for fast data searching.
+crs012_lec07,crs00012,dynamic programming,solving complex problems by breaking them down.
+crs012_lec08,crs00012,graph algorithms,searching and finding paths in complex networks.
+crs012_lec09,crs00012,greedy algorithms,making locally optimal choices for global solutions.
+crs013_lec00,crs00013,history of ai,the evolution of artificial intelligence research.
+crs013_lec01,crs00013,search strategies,finding solutions in large state spaces.
+crs013_lec02,crs00013,knowledge representation,how computers store and use logical facts.
+crs013_lec03,crs00013,machine learning intro,basics of training models from historical data.
+crs013_lec04,crs00013,natural language intro,overview of computer processing of human speech.
+crs013_lec05,crs00013,computer vision,enabling machines to see and interpret images.
+crs013_lec06,crs00013,expert systems,mimicking human decision-making in specific fields.
+crs013_lec07,crs00013,robotics basics,combining ai with physical motion and sensing.
+crs013_lec08,crs00013,ethics in ai,addressing bias and fairness in automated systems.
+crs013_lec09,crs00013,future of ai,trends in generative models and autonomous agents.
+crs014_lec00,crs00014,banking structure,overview of commercial bank roles in finance.
+crs014_lec01,crs00014,deposit accounts,managing savings  checking  and time deposits.
+crs014_lec02,crs00014,lending operations,principles of personal and business loan processing.
+crs014_lec03,crs00014,credit analysis,evaluating the creditworthiness of bank borrowers.
+crs014_lec04,crs00014,bank liquidity,ensuring banks have enough cash for withdrawals.
+crs014_lec05,crs00014,asset liability management,balancing bank resources for maximum profit.
+crs014_lec06,crs00014,payment systems,mechanisms for transferring money between banks.
+crs014_lec07,crs00014,risk management,identifying and mitigating credit and market risks.
+crs014_lec08,crs00014,banking technology,impact of fintech and online banking systems.
+crs014_lec09,crs00014,international banking,global financial services and currency exchange.
+crs015_lec00,crs00015,investment basics,principles of saving and wealth accumulation.
+crs015_lec01,crs00015,security markets,how stocks and bonds are traded in markets.
+crs015_lec02,crs00015,stock valuation,methods for determining the fair price of shares.
+crs015_lec03,crs00015,bond analysis,evaluating fixed-income securities and interest rates.
+crs015_lec04,crs00015,portfolio theory,diversification strategies to manage investment risk.
+crs015_lec05,crs00015,mutual funds,overview of pooled investment vehicles and etfs.
+crs015_lec06,crs00015,derivative markets,basics of options and futures for hedging risk.
+crs015_lec07,crs00015,efficient market theory,how stock prices reflect all available data.
+crs015_lec08,crs00015,behavioral finance,psychological factors influencing investor choices.
+crs015_lec09,crs00015,wealth management,long-term planning for financial independence.

@@ -1,0 +1,86 @@
+{% extends 'layout.html' %}
+{% block header_title %}Quản lý Lớp Tín Chỉ (Assignments){% endblock %}
+{% block content %}
+
+<div class="row">
+    <!-- CỘT TRÁI: BẢNG DANH SÁCH CÁC LỚP TÍN CHỈ (10 LỚP / TRANG) -->
+    <div class="col-md-6">
+        <div class="glass-card p-0 overflow-hidden mb-3">
+            <div class="bg-light p-3 border-bottom"><h6 class="m-0 fw-bold text-dark"><i class='bx bx-list-ul'></i> Danh sách Lớp tín chỉ (asg...)</h6></div>
+            <table class="table table-hover mb-0 align-middle text-center">
+                <thead class="table-light">
+                    <tr>
+                        <th>Mã Lớp</th>
+                        <th>Môn học</th>
+                        <th>Thao tác</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for asg in assignments_list %}
+                    <tr class="{% if asg_details and asg_details.AssignmentID == asg.AssignmentID %}table-primary{% endif %}">
+                        <td class="fw-bold text-secondary">{{ asg.AssignmentID }}</td>
+                        <td>{{ asg.CourseName }}</td>
+                        <td>
+                            <a href="/assignments?assignment_id={{ asg.AssignmentID }}&page={{ page }}" class="btn btn-sm btn-outline-primary">Xem chi tiết</a>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        
+        <!-- Phân trang cho Lớp tín chỉ -->
+        <div class="d-flex justify-content-center mt-3">
+            <a href="/assignments?page={{ page - 1 if page > 1 else 1 }}" class="btn btn-light shadow-sm me-2">Trước</a>
+            <span class="btn btn-primary shadow-sm">{{ page }}</span>
+            <a href="/assignments?page={{ page + 1 }}" class="btn btn-light shadow-sm ms-2">Sau</a>
+        </div>
+    </div>
+
+    <!-- CỘT PHẢI: HIỂN THỊ CHI TIẾT SINH VIÊN KHI BẤM XEM -->
+    <div class="col-md-6">
+        {% if asg_details %}
+        <div class="glass-card border-top border-4 border-info">
+            <h5 class="fw-bold text-info"><i class='bx bxs-school'></i> Chi tiết lớp: {{ asg_details.AssignmentID }}</h5>
+            <hr>
+            <div class="mb-3">
+                <p class="mb-1"><strong><i class='bx bxs-book'></i> Môn học:</strong> {{ asg_details.CourseName }}</p>
+                <p class="mb-1"><strong><i class='bx bx-user'></i> Giảng viên:</strong> <span class="badge bg-secondary">{{ asg_details.InstructorName }}</span></p>
+                <p class="mb-1"><strong><i class='bx bx-time'></i> Ca học:</strong> <span class="badge bg-warning text-dark">{{ asg_details.Shift }}</span></p>
+            </div>
+            
+            <h6 class="fw-bold text-dark mt-4"><i class='bx bxs-group'></i> Danh sách Sinh viên trong lớp ({{ enrolled_students|length }})</h6>
+            
+            {% if enrolled_students %}
+            <div class="overflow-auto" style="max-height: 400px;">
+                <table class="table table-sm table-bordered mt-2">
+                    <thead class="table-light">
+                        <tr>
+                            <th>MSSV</th>
+                            <th>Họ Tên</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for st in enrolled_students %}
+                        <tr>
+                            <td class="fw-bold">{{ st.LearnerID }}</td>
+                            <td>{{ st.LearnerName }}</td>
+                            <td>{{ st.Email }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            {% else %}
+                <p class="text-muted fst-italic mt-2">Chưa có sinh viên nào đăng ký lớp này.</p>
+            {% endif %}
+        </div>
+        {% else %}
+        <div class="alert alert-secondary text-center shadow-sm">
+            <i class='bx bx-info-circle'></i> Bấm nút "Xem chi tiết" ở bảng bên trái để hiển thị danh sách Giảng viên và Sinh viên của lớp.
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

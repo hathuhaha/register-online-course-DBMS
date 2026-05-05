@@ -1,0 +1,501 @@
+﻿Student ID, Full Name, Class, Email, Phone Number
+st6500000, Bùi Tiến Duy, Data Science 65B, st6500000@onlineUniversity.com, 01778863030
+st6700001, Dương Tú Anh, Artificial Intelligence 67D, st6700001@onlineUniversity.com, 06436389227
+st6600002, Đinh Thùy Phương, Information Systems 66A, st6600002@onlineUniversity.com, 03578490643
+st6600003, Hoàng Thị Linh, Artificial Intelligence 66C, st6600003@onlineUniversity.com, 02194912253
+st6700004, Hoàng Ngân Uyên, Artificial Intelligence 67D, st6700004@onlineUniversity.com, 07126822427
+st6700005, Bùi Quang Anh, Information Systems 67A, st6700005@onlineUniversity.com, 02993445868
+st6700006, Lê Đình Tuấn, Information Technology 67B, st6700006@onlineUniversity.com, 02366747342
+st6600007, Hoàng Văn Kiệt, Information Technology 66B, st6600007@onlineUniversity.com, 04918756629
+st6700008, Đinh Tố Như, Data Science 67B, st6700008@onlineUniversity.com, 01244682118
+st6500009, Vũ Lê Anh Thư, Information Systems 65B, st6500009@onlineUniversity.com, 06237696714
+st6700010, Phan Thu Thủy, Information Technology 67B, st6700010@onlineUniversity.com, 05143220569
+st6700011, Phạm Văn Kiệt, Information Systems 67A, st6700011@onlineUniversity.com, 05458392741
+st6700012, Lê Xuân Thị Linh, Data Science 67C, st6700012@onlineUniversity.com, 05699770480
+st6600013, Trần Đình Bắc, Artificial Intelligence 66C, st6600013@onlineUniversity.com, 03637151855
+st6600014, Vũ Lê Quốc Cường, Information Technology 66D, st6600014@onlineUniversity.com, 01452445658
+st6600015, Vũ Lê Quang Anh, Information Technology 66D, st6600015@onlineUniversity.com, 07858438050
+st6500016, Lê Văn Bình, Data Science 67DArtificial Intelligence 65A, st6500016@onlineUniversity.com, 05593340713
+st6700017, Huỳnh Thị Hương, Artificial Intelligence 67C, st6700017@onlineUniversity.com, 02987697863
+st6600018, Trần Thị Thơm, Information Technology 66B, st6600018@onlineUniversity.com, 06672325581
+st6600019, Bùi Xuân Hưng, Information Technology 66A, st6600019@onlineUniversity.com, 04618897743
+st6600020, Phan Tú Anh, Artificial Intelligence 66C, st6600020@onlineUniversity.com, 08783170621
+st6500021, Bùi Huyền Anh, Artificial Intelligence 65D, st6500021@onlineUniversity.com, 04558384414
+st6500022, Trần Thị Thủy, Data Science 65A, st6500022@onlineUniversity.com, 09713868848
+st6600023, Lê Thu Thủy, Artificial Intelligence 66B, st6600023@onlineUniversity.com, 02982575871
+st6700024, Trần Hoàng Phương, Artificial Intelligence 67D, st6700024@onlineUniversity.com, 03035159107
+st6500025, Bùi Quỳnh Anh, Artificial Intelligence 65C, st6500025@onlineUniversity.com, 03275366624
+st6700026, Hoàng Thúy Vân, Information Systems 67B, st6700026@onlineUniversity.com, 05632203894
+st6500027, Vũ Lê Dũng, Information Technology 65B, st6500027@onlineUniversity.com, 09509720925
+st6700028, Huỳnh Thị Linh, Artificial Intelligence 67C, st6700028@onlineUniversity.com, 03664166797
+st6600029, Dương Quốc Cường, Artificial Intelligence 66C, st6600029@onlineUniversity.com, 08994402304
+st6700030, Trần Đình Bắc, Information Systems 67D, st6700030@onlineUniversity.com, 03921633138
+st6700031, Lê Xuân Huỳnh Như, Data Science 67B, st6700031@onlineUniversity.com, 06447966361
+st6500032, Trần Tố Nhi, Information Technology 65A, st6500032@onlineUniversity.com, 02794908478
+st6600033, Hoàng Tố Nhi, Information Technology 66A, st6600033@onlineUniversity.com, 02082576878
+st6700034, Phan Thúy Vân, Artificial Intelligence 67A, st6700034@onlineUniversity.com, 09211693010
+st6600035, Hoàng Thùy Linh, Information Systems 66C, st6600035@onlineUniversity.com, 02219235381
+st6600036, Lê Đình Bắc, Information Systems 66A, st6600036@onlineUniversity.com, 02872487858
+st6600037, Lê Xuân Thị Ngọc, Information Systems 66B, st6600037@onlineUniversity.com, 04648942692
+st6500038, Lê Xuân Văn Bình, Data Science 65D, st6500038@onlineUniversity.com, 07765659192
+st6600039, Đỗ Quỳnh Anh, Information Technology 66D, st6600039@onlineUniversity.com, 03372220452
+st6500040, Hoàng Mai Linh, Information Technology 65A, st6500040@onlineUniversity.com, 01272712164
+st6600041, Lê Xuân Tú Anh, Data Science 66D, st6600041@onlineUniversity.com, 07807543711
+st6700042, Hoàng Thị Linh, Information Systems 67B, st6700042@onlineUniversity.com, 08397013642
+st6600043, Hoàng Văn Minh, Information Technology 66A, st6600043@onlineUniversity.com, 07739183555
+st6700044, Bùi Uyển Vân, Artificial Intelligence 67B, st6700044@onlineUniversity.com, 05723414987
+st6600045, Dương Trung Kiên, Data Science 66C, st6600045@onlineUniversity.com, 07462552268
+st6500046, Hoàng Nhật Linh, Information Technology 65C, st6500046@onlineUniversity.com, 02532310750
+st6500047, Vũ Lê Phương Thúy, Artificial Intelligence 65C, st6500047@onlineUniversity.com, 01025762678
+st6500048, Lê Xuân Ánh Dương, Information Systems 65A, st6500048@onlineUniversity.com, 06538711522
+st6600049, Phạm Thu Thủy, Artificial Intelligence 66D, st6600049@onlineUniversity.com, 09562632727
+st6500050, Hoàng Ngân Uyên, Information Systems 65A, st6500050@onlineUniversity.com, 07769636558
+st6700051, Hà Vân Anh, Artificial Intelligence 67D, st6700051@onlineUniversity.com, 07073599001
+st6500052, Dương Thị Thanh Hương, Information Technology 65A, st6500052@onlineUniversity.com, 01082144575
+st6600053, Đỗ Thị Lan, Artificial Intelligence 66D, st6600053@onlineUniversity.com, 05277565575
+st6500054, Vũ Lê Dũng, Information Technology 65D, st6500054@onlineUniversity.com, 09403784002
+st6700055, Huỳnh Quốc Cường, Information Systems 67D, st6700055@onlineUniversity.com, 06242544945
+st6500056, Nguyễn Khắc Dương, Artificial Intelligence 65C, st6500056@onlineUniversity.com, 04716908095
+st6500057, Trần Thị Thơm, Artificial Intelligence 65D, st6500057@onlineUniversity.com, 02115799770
+st6600058, Bùi Ngân Uyên, Information Systems 66D, st6600058@onlineUniversity.com, 07452190745
+st6700059, Phan Mai Hoa, Information Technology 67B, st6700059@onlineUniversity.com, 08782494356
+st6500060, Hoàng Thị Hương, Data Science 65B, st6500060@onlineUniversity.com, 07525724686
+st6600061, Đinh Xuân Vũ, Artificial Intelligence 66C, st6600061@onlineUniversity.com, 07174879597
+st6500062, Lê Ánh Như, Data Science 65A, st6500062@onlineUniversity.com, 05124222998
+st6700063, Đỗ Ánh Như, Information Systems 67A, st6700063@onlineUniversity.com, 01745334688
+st6600064, Hoàng Hoàng Phương, Data Science 66A, st6600064@onlineUniversity.com, 09353736341
+st6700065, Đỗ Huyền Anh, Artificial Intelligence 67D, st6700065@onlineUniversity.com, 01763368005
+st6600066, Phan Thúy Vân, Information Technology 66B, st6600066@onlineUniversity.com, 01355641283
+st6700067, Lê Xuân Ngọc Hà, Data Science 67B, st6700067@onlineUniversity.com, 01341798331
+st6600068, Lê Xuân Thùy Linh, Data Science 66A, st6600068@onlineUniversity.com, 07275507032
+st6500069, Dương Ngân Uyên, Data Science 65C, st6500069@onlineUniversity.com, 09209891587
+st6700070, Huỳnh Văn Quyết, Artificial Intelligence 67A, st6700070@onlineUniversity.com, 09263620681
+st6600071, Hoàng Vân Anh, Data Science 66D, st6600071@onlineUniversity.com, 08388961914
+st6700072, Phan Thị Hảo, Artificial Intelligence 67A, st6700072@onlineUniversity.com, 06114237089
+st6700073, Hoàng Tú Anh, Artificial Intelligence 67A, st6700073@onlineUniversity.com, 05445521631
+st6600074, Dương Mai Phương, Artificial Intelligence 66C, st6600074@onlineUniversity.com, 01598523057
+st6700075, Phan Trang Anh, Data Science 67A, st6700075@onlineUniversity.com, 03682430668
+st6600076, Lê Xuân Văn Việt, Information Systems 66A, st6600076@onlineUniversity.com, 05897132318
+st6600077, Phạm Thùy Linh, Data Science 66B, st6600077@onlineUniversity.com, 03042506770
+st6500078, Huỳnh Tố Nhi, Information Systems 65A, st6500078@onlineUniversity.com, 02156955835
+st6500079, Nguyễn Xuân Hưng, Information Technology 65C, st6500079@onlineUniversity.com, 02233013792
+st6500080, Đinh Quỳnh Anh, Information Technology 65D, st6500080@onlineUniversity.com, 01038320229
+st6600081, Vũ Lê Thúy Vân, Information Systems 66C, st6600081@onlineUniversity.com, 03832805455
+st6700082, Phạm Ngân Uyên, Information Technology 67A, st6700082@onlineUniversity.com, 05442676837
+st6500083, Bùi Tiến Duy, Artificial Intelligence 65C, st6500083@onlineUniversity.com, 03593087792
+st6500084, Đỗ Bảo Long, Artificial Intelligence 65C, st6500084@onlineUniversity.com, 08621832876
+st6500085, Lê Xuân Văn Công, Data Science 65C, st6500085@onlineUniversity.com, 07217705533
+st6500086, Nguyễn Thị Thủy, Artificial Intelligence 65D, st6500086@onlineUniversity.com, 05461325645
+st6600087, Trần Quốc Cường, Information Technology 66D, st6600087@onlineUniversity.com, 08411418247
+st6700088, Bùi Thùy Linh, Data Science 67A, st6700088@onlineUniversity.com, 09428405949
+st6500089, Huỳnh Dũng, Information Systems 65C, st6500089@onlineUniversity.com, 06794451846
+st6600090, Phan Thị Ngọc, Information Technology 66D, st6600090@onlineUniversity.com, 05147419292
+st6500091, Hà Ánh Như, Data Science 65C, st6500091@onlineUniversity.com, 05939011107
+st6500092, Hà Phương Trang, Data Science 65A, st6500092@onlineUniversity.com, 01151271340
+st6600093, Hà Thị Thanh Hương, Data Science 66B, st6600093@onlineUniversity.com, 05755676534
+st6500094, Vũ Lê Vân Anh, Data Science 67DArtificial Intelligence 65A, st6500094@onlineUniversity.com, 05732347540
+st6500095, Hoàng Ngọc Hà, Artificial Intelligence 65C, st6500095@onlineUniversity.com, 03576982452
+st6500096, Phan Tú Anh, Information Technology 65B, st6500096@onlineUniversity.com, 01161985041
+st6600097, Nguyễn Mai Hoa, Information Technology 66D, st6600097@onlineUniversity.com, 03239667411
+st6500098, Vũ Lê Bảo Long, Information Technology 65D, st6500098@onlineUniversity.com, 02168222491
+st6700099, Đỗ Trang Anh, Artificial Intelligence 67C, st6700099@onlineUniversity.com, 05556917268
+st6700100, Đỗ Đình Bắc, Artificial Intelligence 67D, st6700100@onlineUniversity.com, 01973151400
+st6600101, Lê Xuân Ngọc Hà, Artificial Intelligence 66B, st6600101@onlineUniversity.com, 04167565930
+st6600102, Trần Mai Hoa, Artificial Intelligence 66B, st6600102@onlineUniversity.com, 05728509685
+st6600103, Nguyễn Bảo Long, Information Systems 66A, st6600103@onlineUniversity.com, 05869951803
+st6600104, Hoàng Hữu Phước, Information Systems 66C, st6600104@onlineUniversity.com, 01295753954
+st6600105, Dương Huỳnh Như, Data Science 66C, st6600105@onlineUniversity.com, 06917796581
+st6600106, Lê Xuân Phương Trang, Artificial Intelligence 66C, st6600106@onlineUniversity.com, 02761615580
+st6600107, Vũ Lê Minh Tâm, Information Technology 66D, st6600107@onlineUniversity.com, 03584316680
+st6700108, Đinh Thùy Phương, Artificial Intelligence 67C, st6700108@onlineUniversity.com, 01032478763
+st6500109, Lê Huyền Anh, Information Technology 65D, st6500109@onlineUniversity.com, 01593045998
+st6600110, Hà Thị Linh, Information Technology 66B, st6600110@onlineUniversity.com, 09812613647
+st6600111, Lê Xuân Văn Việt, Information Technology 66D, st6600111@onlineUniversity.com, 07061733952
+st6700112, Huỳnh Tố Nhi, Artificial Intelligence 67A, st6700112@onlineUniversity.com, 06769180540
+st6700113, Bùi Nhật Linh, Artificial Intelligence 67C, st6700113@onlineUniversity.com, 04772141347
+st6700114, Hà Đình Tuấn, Information Systems 67B, st6700114@onlineUniversity.com, 07706765868
+st6600115, Bùi Phương Thúy, Data Science 66B, st6600115@onlineUniversity.com, 09219291795
+st6700116, Huỳnh Phương Trang, Data Science 67B, st6700116@onlineUniversity.com, 05393489266
+st6600117, Lê Xuân Khắc Dương, Artificial Intelligence 66C, st6600117@onlineUniversity.com, 04369482305
+st6700118, Phạm Ngọc Hà, Data Science 67B, st6700118@onlineUniversity.com, 01875831006
+st6700119, Huỳnh Mai Phương, Information Systems 67B, st6700119@onlineUniversity.com, 09057392952
+st6500120, Lê Uyển Vân, Information Systems 65D, st6500120@onlineUniversity.com, 09076134777
+st6600121, Dương Thị Linh, Information Technology 66A, st6600121@onlineUniversity.com, 07641331853
+st6700122, Hoàng Ánh Dương, Artificial Intelligence 67D, st6700122@onlineUniversity.com, 08859519945
+st6600123, Hoàng Thùy Linh, Information Systems 66B, st6600123@onlineUniversity.com, 09298947773
+st6500124, Dương Thu Huyền, Information Systems 65B, st6500124@onlineUniversity.com, 06106915363
+st6700125, Huỳnh Thúy Vân, Artificial Intelligence 67C, st6700125@onlineUniversity.com, 06006740010
+st6500126, Huỳnh Thị Hương, Information Systems 65C, st6500126@onlineUniversity.com, 03824063354
+st6700127, Đỗ Thu Huyền, Data Science 67A, st6700127@onlineUniversity.com, 06821889974
+st6500128, Trần Quỳnh Anh, Information Systems 65D, st6500128@onlineUniversity.com, 09576487681
+st6600129, Dương Quang Anh, Information Systems 66D, st6600129@onlineUniversity.com, 01154065468
+st6600130, Trần Thị Ngọc, Data Science 66A, st6600130@onlineUniversity.com, 09301276648
+st6700131, Hoàng Ngọc Hà, Artificial Intelligence 67C, st6700131@onlineUniversity.com, 06986348165
+st6600132, Phạm Thùy Phương, Information Technology 66B, st6600132@onlineUniversity.com, 04162156724
+st6500133, Dương Ngọc Hà, Data Science 65B, st6500133@onlineUniversity.com, 09625459929
+st6700134, Hoàng Minh Quang, Artificial Intelligence 67A, st6700134@onlineUniversity.com, 05562725007
+st6700135, Lê Ngọc Hà, Data Science 67C, st6700135@onlineUniversity.com, 08201536307
+st6600136, Hoàng Thu Thủy, Artificial Intelligence 66B, st6600136@onlineUniversity.com, 01187994166
+st6500137, Nguyễn Mai Phương, Information Technology 65C, st6500137@onlineUniversity.com, 04599910050
+st6500138, Lê Xuân Khắc Dương, Data Science 67DArtificial Intelligence 65A, st6500138@onlineUniversity.com, 02302960377
+st6600139, Phan Thị Lan, Information Systems 66C, st6600139@onlineUniversity.com, 09542027069
+st6600140, Nguyễn Đình Bắc, Artificial Intelligence 66D, st6600140@onlineUniversity.com, 07488516996
+st6500141, Đinh Thị Ngọc, Information Technology 65D, st6500141@onlineUniversity.com, 01689290777
+st6700142, Đỗ Anh Thư, Artificial Intelligence 67A, st6700142@onlineUniversity.com, 08929779817
+st6700143, Vũ Lê Phương Trang, Information Systems 67C, st6700143@onlineUniversity.com, 01015365872
+st6500144, Phan Tố Như, Information Technology 65A, st6500144@onlineUniversity.com, 03488473930
+st6600145, Hoàng Trung Kiên, Information Systems 66D, st6600145@onlineUniversity.com, 02148127169
+st6700146, Bùi Văn Minh, Artificial Intelligence 67B, st6700146@onlineUniversity.com, 01738401719
+st6600147, Đinh Hải Đăng, Information Systems 66C, st6600147@onlineUniversity.com, 03288269329
+st6500148, Đỗ Thùy Linh, Information Technology 65A, st6500148@onlineUniversity.com, 06139293709
+st6600149, Bùi Văn Tú, Data Science 66C, st6600149@onlineUniversity.com, 09208553125
+st6500150, Lê Thùy Linh, Data Science 65B, st6500150@onlineUniversity.com, 08158451718
+st6500151, Hoàng Khắc Dương, Information Systems 65B, st6500151@onlineUniversity.com, 06702692720
+st6700152, Huỳnh Quỳnh Anh, Data Science 67C, st6700152@onlineUniversity.com, 03905611424
+st6700153, Dương Dũng, Information Systems 67C, st6700153@onlineUniversity.com, 07136222731
+st6500154, Đỗ Quỳnh Anh, Information Technology 65A, st6500154@onlineUniversity.com, 07655826478
+st6500155, Huỳnh Hữu Phước, Artificial Intelligence 65D, st6500155@onlineUniversity.com, 05043608553
+st6500156, Nguyễn Thu Thủy, Information Technology 65C, st6500156@onlineUniversity.com, 06546922629
+st6500157, Lê Văn Minh, Data Science 65A, st6500157@onlineUniversity.com, 01349734495
+st6700158, Dương Hoàng Phương, Information Systems 67C, st6700158@onlineUniversity.com, 02788411833
+st6500159, Lê Xuân Xuân Hưng, Information Technology 65D, st6500159@onlineUniversity.com, 01343223191
+st6600160, Nguyễn Thị Lan, Artificial Intelligence 66D, st6600160@onlineUniversity.com, 05154340305
+st6500161, Nguyễn Đình Bắc, Data Science 65D, st6500161@onlineUniversity.com, 07243968858
+st6600162, Trần Văn Việt, Data Science 66B, st6600162@onlineUniversity.com, 07265613058
+st6600163, Lê Xuân Thu Thủy, Information Technology 66B, st6600163@onlineUniversity.com, 09995954594
+st6600164, Nguyễn Dũng, Artificial Intelligence 66B, st6600164@onlineUniversity.com, 09618079338
+st6700165, Phan Bảo Long, Information Technology 67A, st6700165@onlineUniversity.com, 07039233271
+st6700166, Lê Tiến Duy, Information Technology 67A, st6700166@onlineUniversity.com, 04798530643
+st6700167, Đinh Ánh Như, Artificial Intelligence 67B, st6700167@onlineUniversity.com, 07548409534
+st6700168, Phạm Thùy Linh, Information Technology 67A, st6700168@onlineUniversity.com, 07403887539
+st6600169, Hoàng Đình Tuấn, Information Systems 66C, st6600169@onlineUniversity.com, 06032810949
+st6500170, Lê Xuân Huyền Anh, Artificial Intelligence 65C, st6500170@onlineUniversity.com, 09326873764
+st6600171, Nguyễn Văn Minh, Information Technology 66C, st6600171@onlineUniversity.com, 07203003071
+st6700172, Nguyễn Thu Thủy, Information Systems 67C, st6700172@onlineUniversity.com, 04969135183
+st6500173, Hoàng Ánh Dương, Information Systems 65C, st6500173@onlineUniversity.com, 05658529925
+st6700174, Phan Khắc Dương, Information Systems 67C, st6700174@onlineUniversity.com, 06071690886
+st6700175, Phan Văn Minh, Information Systems 67B, st6700175@onlineUniversity.com, 04164023475
+st6600176, Lê Phương Thúy, Artificial Intelligence 66C, st6600176@onlineUniversity.com, 03033382187
+st6600177, Dương Thị Hương, Information Systems 66C, st6600177@onlineUniversity.com, 01913228376
+st6500178, Đỗ Văn Việt, Information Technology 65C, st6500178@onlineUniversity.com, 06489119519
+st6600179, Phạm Mai Phương, Artificial Intelligence 66C, st6600179@onlineUniversity.com, 09562891217
+st6700180, Nguyễn Mai Phương, Artificial Intelligence 67A, st6700180@onlineUniversity.com, 05719595306
+st6500181, Huỳnh Quỳnh Anh, Artificial Intelligence 65C, st6500181@onlineUniversity.com, 07481885002
+st6700182, Đỗ Xuân Vũ, Information Systems 67D, st6700182@onlineUniversity.com, 03948312922
+st6500183, Dương Văn Minh, Data Science 65B, st6500183@onlineUniversity.com, 07662669232
+st6700184, Nguyễn Mai Hoa, Artificial Intelligence 67B, st6700184@onlineUniversity.com, 02658800382
+st6500185, Bùi Bảo Long, Data Science 67DArtificial Intelligence 65A, st6500185@onlineUniversity.com, 07098436097
+st6700186, Dương Thu Huyền, Information Systems 67B, st6700186@onlineUniversity.com, 06936200261
+st6700187, Đinh Quốc Cường, Information Systems 67C, st6700187@onlineUniversity.com, 05391257016
+st6600188, Hoàng Thị Thanh Hương, Information Technology 66B, st6600188@onlineUniversity.com, 09107916145
+st6600189, Trần Đình Tuấn, Data Science 66B, st6600189@onlineUniversity.com, 04659984632
+st6600190, Huỳnh Mai Anh, Artificial Intelligence 66C, st6600190@onlineUniversity.com, 06901289480
+st6700191, Bùi Anh Thư, Artificial Intelligence 67C, st6700191@onlineUniversity.com, 06609936606
+st6600192, Nguyễn Hải Đăng, Information Systems 66B, st6600192@onlineUniversity.com, 04545207790
+st6500193, Phan Thúy Vân, Information Systems 65B, st6500193@onlineUniversity.com, 08747961653
+st6700194, Hà Quốc Cường, Data Science 67C, st6700194@onlineUniversity.com, 03222234632
+st6500195, Trần Khắc Dương, Data Science 65A, st6500195@onlineUniversity.com, 05071078611
+st6600196, Đinh Minh Tâm, Data Science 66A, st6600196@onlineUniversity.com, 08804651006
+st6700197, Phan Nhật Linh, Information Technology 67B, st6700197@onlineUniversity.com, 07099370111
+st6500198, Đỗ Hải Đăng, Information Technology 65D, st6500198@onlineUniversity.com, 09925241362
+st6700199, Huỳnh Tú Anh, Artificial Intelligence 67B, st6700199@onlineUniversity.com, 01548976836
+st6700200, Hoàng Mai Hoa, Artificial Intelligence 67B, st6700200@onlineUniversity.com, 05678702106
+st6600201, Trần Dũng, Artificial Intelligence 66A, st6600201@onlineUniversity.com, 06178761670
+st6600202, Lê Xuân Thu Thủy, Artificial Intelligence 66A, st6600202@onlineUniversity.com, 01474705647
+st6700203, Bùi Quang Anh, Data Science 67A, st6700203@onlineUniversity.com, 01605249367
+st6700204, Bùi Ánh Dương, Information Technology 67B, st6700204@onlineUniversity.com, 04555383028
+st6700205, Nguyễn Thị Hảo, Information Systems 67A, st6700205@onlineUniversity.com, 02638244775
+st6500206, Lê Xuân Minh Tâm, Artificial Intelligence 65C, st6500206@onlineUniversity.com, 07193236909
+st6700207, Trần Hải Đăng, Information Technology 67B, st6700207@onlineUniversity.com, 08602033769
+st6700208, Lê Khắc Dương, Artificial Intelligence 67C, st6700208@onlineUniversity.com, 04892492547
+st6600209, Đinh Thúy Vân, Information Technology 66C, st6600209@onlineUniversity.com, 07262427294
+st6700210, Hoàng Tố Nhi, Information Technology 67B, st6700210@onlineUniversity.com, 04865146320
+st6600211, Vũ Lê Văn Bình, Information Technology 66A, st6600211@onlineUniversity.com, 03007162438
+st6600212, Dương Ngọc Hà, Artificial Intelligence 66C, st6600212@onlineUniversity.com, 09727456938
+st6500213, Dương Ngọc Hà, Information Technology 65B, st6500213@onlineUniversity.com, 08312450097
+st6600214, Hoàng Văn Tú, Artificial Intelligence 66B, st6600214@onlineUniversity.com, 04947171490
+st6500215, Huỳnh Mai Anh, Data Science 65C, st6500215@onlineUniversity.com, 07763719109
+st6700216, Trần Vân Anh, Artificial Intelligence 67C, st6700216@onlineUniversity.com, 06617481467
+st6500217, Lê Ngọc Hà, Data Science 67DArtificial Intelligence 65A, st6500217@onlineUniversity.com, 08675822934
+st6500218, Phạm Nhật Cường, Artificial Intelligence 65C, st6500218@onlineUniversity.com, 06759064136
+st6700219, Hoàng Ngọc Hà, Information Systems 67A, st6700219@onlineUniversity.com, 05373429342
+st6700220, Hoàng Tú Anh, Information Systems 67B, st6700220@onlineUniversity.com, 04639312364
+st6700221, Huỳnh Tú Anh, Information Technology 67B, st6700221@onlineUniversity.com, 01851902142
+st6700222, Lê Xuân Tú Anh, Artificial Intelligence 67C, st6700222@onlineUniversity.com, 08588405958
+st6600223, Phan Minh Tâm, Data Science 66D, st6600223@onlineUniversity.com, 01187447080
+st6500224, Lê Thị Thơm, Information Technology 65D, st6500224@onlineUniversity.com, 01569753883
+st6600225, Lê Phương Trang, Information Systems 66B, st6600225@onlineUniversity.com, 02972786570
+st6700226, Trần Xuân Vũ, Data Science 67B, st6700226@onlineUniversity.com, 06917697337
+st6700227, Nguyễn Dũng, Data Science 67B, st6700227@onlineUniversity.com, 06454336272
+st6500228, Hoàng Ngọc Hà, Information Technology 65C, st6500228@onlineUniversity.com, 08897414363
+st6700229, Đinh Quốc Cường, Information Technology 67A, st6700229@onlineUniversity.com, 06167115524
+st6600230, Đỗ Thùy Phương, Information Systems 66A, st6600230@onlineUniversity.com, 07227278022
+st6500231, Bùi Thùy Phương, Information Systems 65B, st6500231@onlineUniversity.com, 05951808195
+st6600232, Bùi Thị Hảo, Information Technology 66D, st6600232@onlineUniversity.com, 04912196666
+st6500233, Trần Văn Quyết, Data Science 67DArtificial Intelligence 65A, st6500233@onlineUniversity.com, 07223865112
+st6600234, Bùi Thùy Linh, Information Systems 66B, st6600234@onlineUniversity.com, 03939741051
+st6500235, Lê Xuân Đình Tuấn, Data Science 65D, st6500235@onlineUniversity.com, 05593811654
+st6500236, Hoàng Ngọc Hà, Information Systems 65D, st6500236@onlineUniversity.com, 02004889201
+st6600237, Hà Thị Hương, Data Science 66D, st6600237@onlineUniversity.com, 06896884783
+st6700238, Đỗ Thị Thanh Hương, Information Systems 67B, st6700238@onlineUniversity.com, 03796972477
+st6600239, Lê Bảo Long, Information Systems 66A, st6600239@onlineUniversity.com, 01245451510
+st6700240, Dương Mai Hoa, Information Systems 67A, st6700240@onlineUniversity.com, 03834212990
+st6700241, Bùi Văn Kiệt, Artificial Intelligence 67D, st6700241@onlineUniversity.com, 05059548062
+st6500242, Phạm Quốc Cường, Information Technology 65C, st6500242@onlineUniversity.com, 06159739547
+st6700243, Vũ Lê Hải Đăng, Information Technology 67A, st6700243@onlineUniversity.com, 08612755761
+st6500244, Phạm Thị Hảo, Information Technology 65D, st6500244@onlineUniversity.com, 05113011882
+st6600245, Lê Nhật Linh, Information Technology 66A, st6600245@onlineUniversity.com, 01933395072
+st6500246, Phạm Thị Hảo, Data Science 65B, st6500246@onlineUniversity.com, 02805083776
+st6700247, Hoàng Mai Hoa, Artificial Intelligence 67C, st6700247@onlineUniversity.com, 02515514693
+st6600248, Nguyễn Ánh Dương, Information Technology 66A, st6600248@onlineUniversity.com, 06919421960
+st6500249, Nguyễn Tố Như, Data Science 65C, st6500249@onlineUniversity.com, 08784703268
+st6600250, Đỗ Thùy Phương, Data Science 66A, st6600250@onlineUniversity.com, 07578151861
+st6500251, Hà Ngân Uyên, Information Technology 65C, st6500251@onlineUniversity.com, 09096608941
+st6500252, Hà Mai Linh, Data Science 65A, st6500252@onlineUniversity.com, 07592476599
+st6700253, Dương Dũng, Information Systems 67C, st6700253@onlineUniversity.com, 05914878890
+st6600254, Huỳnh Thị Hương, Artificial Intelligence 66A, st6600254@onlineUniversity.com, 06038304402
+st6700255, Phạm Thị Hảo, Data Science 67C, st6700255@onlineUniversity.com, 08634998892
+st6500256, Bùi Thùy Linh, Information Systems 65A, st6500256@onlineUniversity.com, 08079555219
+st6500257, Phạm Minh Quang, Data Science 65C, st6500257@onlineUniversity.com, 01443657884
+st6700258, Nguyễn Tố Nhi, Data Science 67A, st6700258@onlineUniversity.com, 09662153431
+st6500259, Dương Văn Việt, Information Technology 65B, st6500259@onlineUniversity.com, 07722718680
+st6500260, Đinh Minh Quang, Artificial Intelligence 65B, st6500260@onlineUniversity.com, 05634738080
+st6600261, Trần Ánh Như, Information Technology 66D, st6600261@onlineUniversity.com, 07206334531
+st6600262, Phan Minh Quang, Artificial Intelligence 66C, st6600262@onlineUniversity.com, 01927982460
+st6700263, Dương Thị Hảo, Information Systems 67C, st6700263@onlineUniversity.com, 01874490160
+st6500264, Phan Tố Như, Data Science 65D, st6500264@onlineUniversity.com, 04388359955
+st6600265, Huỳnh Phương Thúy, Information Technology 66B, st6600265@onlineUniversity.com, 07255251579
+st6500266, Phan Văn Bình, Information Technology 65A, st6500266@onlineUniversity.com, 07402072673
+st6600267, Hà Phương Trang, Artificial Intelligence 66A, st6600267@onlineUniversity.com, 01492751146
+st6700268, Huỳnh Văn Tú, Artificial Intelligence 67C, st6700268@onlineUniversity.com, 09169315617
+st6600269, Phan Dũng, Information Technology 66A, st6600269@onlineUniversity.com, 05509878974
+st6600270, Lê Văn Việt, Information Technology 66B, st6600270@onlineUniversity.com, 05942707491
+st6500271, Dương Thị Hảo, Artificial Intelligence 65C, st6500271@onlineUniversity.com, 09702787469
+st6500272, Lê Quốc Cường, Information Systems 65D, st6500272@onlineUniversity.com, 09314102303
+st6500273, Hoàng Vân Anh, Information Systems 65D, st6500273@onlineUniversity.com, 02028660503
+st6700274, Hà Mai Anh, Information Systems 67A, st6700274@onlineUniversity.com, 06159022798
+st6500275, Nguyễn Thị Hảo, Information Technology 65D, st6500275@onlineUniversity.com, 05921074205
+st6500276, Hoàng Xuân Vũ, Information Technology 65D, st6500276@onlineUniversity.com, 04548801090
+st6700277, Đỗ Huyền Anh, Artificial Intelligence 67C, st6700277@onlineUniversity.com, 08821873069
+st6700278, Hà Hải Đăng, Data Science 67B, st6700278@onlineUniversity.com, 05009020367
+st6600279, Lê Huỳnh Như, Information Technology 66A, st6600279@onlineUniversity.com, 01019496530
+st6700280, Dương Thùy Phương, Information Systems 67C, st6700280@onlineUniversity.com, 09658414554
+st6500281, Đinh Thị Ngọc, Information Technology 65B, st6500281@onlineUniversity.com, 09437853580
+st6600282, Phạm Văn Việt, Data Science 66D, st6600282@onlineUniversity.com, 09912538114
+st6500283, Phạm Quỳnh Anh, Information Systems 65B, st6500283@onlineUniversity.com, 09264840421
+st6500284, Bùi Văn An, Information Technology 65C, st6500284@onlineUniversity.com, 08597596020
+st6500285, Đỗ Ngân Uyên, Data Science 65B, st6500285@onlineUniversity.com, 06476450553
+st6700286, Nguyễn Dũng, Artificial Intelligence 67D, st6700286@onlineUniversity.com, 09713207119
+st6700287, Bùi Tú Anh, Artificial Intelligence 67D, st6700287@onlineUniversity.com, 04213874956
+st6500288, Hoàng Thị Thanh Hương, Data Science 67DArtificial Intelligence 65A, st6500288@onlineUniversity.com, 02201215887
+st6500289, Phạm Thị Thơm, Information Technology 65A, st6500289@onlineUniversity.com, 09397841961
+st6600290, Hoàng Ngọc Hà, Information Technology 66A, st6600290@onlineUniversity.com, 06033040003
+st6500291, Trần Văn Bình, Information Systems 65C, st6500291@onlineUniversity.com, 03321574256
+st6600292, Hoàng Thu Thủy, Information Systems 66D, st6600292@onlineUniversity.com, 03635331660
+st6500293, Lê Thị Linh, Data Science 67DArtificial Intelligence 65A, st6500293@onlineUniversity.com, 08179629235
+st6600294, Hà Thị Ngọc, Information Systems 66D, st6600294@onlineUniversity.com, 04055613005
+st6600295, Lê Thu Huyền, Information Technology 66C, st6600295@onlineUniversity.com, 06923201038
+st6600296, Vũ Lê Hữu Phước, Information Technology 66D, st6600296@onlineUniversity.com, 02651698497
+st6600297, Hoàng Văn Minh, Artificial Intelligence 66C, st6600297@onlineUniversity.com, 08251271970
+st6600298, Dương Mai Anh, Information Technology 66A, st6600298@onlineUniversity.com, 05396288058
+st6600299, Lê Nhật Cường, Information Systems 66C, st6600299@onlineUniversity.com, 03896125044
+st6600300, Lê Thu Huyền, Data Science 66C, st6600300@onlineUniversity.com, 04548376548
+st6700301, Phan Ánh Dương, Information Technology 67A, st6700301@onlineUniversity.com, 02719502830
+st6500302, Hà Ngọc Hà, Data Science 65A, st6500302@onlineUniversity.com, 07309841583
+st6500303, Đỗ Văn Minh, Information Systems 65A, st6500303@onlineUniversity.com, 05715636949
+st6500304, Đỗ Văn Việt, Information Systems 65C, st6500304@onlineUniversity.com, 03276536972
+st6500305, Vũ Lê Trung Kiên, Information Technology 65B, st6500305@onlineUniversity.com, 01802557254
+st6700306, Phạm Quỳnh Anh, Information Systems 67D, st6700306@onlineUniversity.com, 03457172261
+st6700307, Dương Văn Việt, Data Science 67A, st6700307@onlineUniversity.com, 06519621495
+st6600308, Hoàng Thùy Phương, Artificial Intelligence 66A, st6600308@onlineUniversity.com, 01133975343
+st6600309, Trần Hải Đăng, Data Science 66A, st6600309@onlineUniversity.com, 04585686283
+st6500310, Hà Văn Quyết, Data Science 65D, st6500310@onlineUniversity.com, 05908305383
+st6500311, Huỳnh Bảo Long, Data Science 65D, st6500311@onlineUniversity.com, 05332156238
+st6600312, Huỳnh Văn Minh, Data Science 66A, st6600312@onlineUniversity.com, 09095514636
+st6600313, Lê Xuân Hoàng Phương, Artificial Intelligence 66B, st6600313@onlineUniversity.com, 04692240318
+st6500314, Phạm Khắc Dương, Information Technology 65A, st6500314@onlineUniversity.com, 02249726502
+st6600315, Phan Khắc Dương, Information Systems 66B, st6600315@onlineUniversity.com, 05635962360
+st6700316, Bùi Thùy Linh, Data Science 67C, st6700316@onlineUniversity.com, 09778533881
+st6700317, Trần Nhật Linh, Information Systems 67A, st6700317@onlineUniversity.com, 09259252883
+st6700318, Lê Tố Như, Information Systems 67B, st6700318@onlineUniversity.com, 05188925427
+st6500319, Hoàng Văn Quyết, Artificial Intelligence 65D, st6500319@onlineUniversity.com, 07413323751
+st6500320, Lê Văn Kiệt, Data Science 65C, st6500320@onlineUniversity.com, 07793163372
+st6500321, Đỗ Thùy Phương, Information Technology 65B, st6500321@onlineUniversity.com, 06445713337
+st6600322, Phạm Văn Quyết, Artificial Intelligence 66D, st6600322@onlineUniversity.com, 03797648055
+st6500323, Hoàng Vân Anh, Data Science 65A, st6500323@onlineUniversity.com, 07188344559
+st6700324, Đinh Nhật Cường, Artificial Intelligence 67C, st6700324@onlineUniversity.com, 02516546573
+st6700325, Hoàng Anh Thư, Artificial Intelligence 67A, st6700325@onlineUniversity.com, 02672814221
+st6600326, Lê Xuân Văn Minh, Data Science 66C, st6600326@onlineUniversity.com, 03579936781
+st6500327, Hoàng Trang Anh, Information Technology 65B, st6500327@onlineUniversity.com, 03991827841
+st6700328, Lê Văn Minh, Information Systems 67B, st6700328@onlineUniversity.com, 01124239791
+st6500329, Nguyễn Ngọc Hà, Artificial Intelligence 65D, st6500329@onlineUniversity.com, 04983567810
+st6500330, Vũ Lê Văn An, Artificial Intelligence 65B, st6500330@onlineUniversity.com, 07971897192
+st6700331, Lê Xuân Thị Hảo, Data Science 67A, st6700331@onlineUniversity.com, 09831274906
+st6700332, Hoàng Thị Lan, Artificial Intelligence 67C, st6700332@onlineUniversity.com, 01465132045
+st6500333, Đinh Văn Minh, Artificial Intelligence 65D, st6500333@onlineUniversity.com, 07084642198
+st6600334, Lê Ánh Dương, Information Systems 66C, st6600334@onlineUniversity.com, 01543973610
+st6700335, Hà Văn Quyết, Artificial Intelligence 67A, st6700335@onlineUniversity.com, 04445667662
+st6700336, Lê Thúy Vân, Information Systems 67D, st6700336@onlineUniversity.com, 01207194386
+st6500337, Đinh Thị Linh, Information Systems 65C, st6500337@onlineUniversity.com, 04941903981
+st6700338, Vũ Lê Hoàng Phương, Information Systems 67D, st6700338@onlineUniversity.com, 04472796964
+st6600339, Hoàng Đình Bắc, Data Science 66D, st6600339@onlineUniversity.com, 07582918943
+st6600340, Trần Thị Linh, Information Technology 66B, st6600340@onlineUniversity.com, 06227430848
+st6600341, Đỗ Mai Anh, Information Systems 66A, st6600341@onlineUniversity.com, 08633883141
+st6700342, Hoàng Văn Minh, Artificial Intelligence 67C, st6700342@onlineUniversity.com, 07852994652
+st6700343, Lê Anh Thư, Artificial Intelligence 67D, st6700343@onlineUniversity.com, 03962307433
+st6600344, Đinh Văn Minh, Information Technology 66C, st6600344@onlineUniversity.com, 07272766881
+st6700345, Nguyễn Văn Tú, Data Science 67C, st6700345@onlineUniversity.com, 08421788364
+st6600346, Huỳnh Quốc Cường, Information Systems 66B, st6600346@onlineUniversity.com, 04705425524
+st6500347, Vũ Lê Nhật Cường, Data Science 65D, st6500347@onlineUniversity.com, 06574304846
+st6600348, Nguyễn Thị Lan, Artificial Intelligence 66A, st6600348@onlineUniversity.com, 04201220099
+st6700349, Phạm Thùy Linh, Data Science 67B, st6700349@onlineUniversity.com, 09057143784
+st6600350, Lê Xuân Phương Trang, Information Systems 66A, st6600350@onlineUniversity.com, 08901444063
+st6700351, Hoàng Văn Minh, Artificial Intelligence 67A, st6700351@onlineUniversity.com, 04373526344
+st6500352, Đỗ Tố Nhi, Data Science 67DArtificial Intelligence 65A, st6500352@onlineUniversity.com, 08078678329
+st6500353, Hoàng Thị Thanh Hương, Artificial Intelligence 65B, st6500353@onlineUniversity.com, 09125000022
+st6500354, Bùi Hoàng Phương, Information Technology 65B, st6500354@onlineUniversity.com, 04213853041
+st6600355, Huỳnh Phương Thúy, Information Technology 66A, st6600355@onlineUniversity.com, 01878784276
+st6500356, Bùi Huỳnh Như, Information Systems 65B, st6500356@onlineUniversity.com, 08093167870
+st6600357, Hà Minh Quang, Information Technology 66A, st6600357@onlineUniversity.com, 05918205213
+st6700358, Lê Văn Việt, Artificial Intelligence 67C, st6700358@onlineUniversity.com, 02128321595
+st6700359, Nguyễn Ngân Uyên, Artificial Intelligence 67D, st6700359@onlineUniversity.com, 06474254433
+st6700360, Nguyễn Thị Hương, Data Science 67B, st6700360@onlineUniversity.com, 07652566227
+st6500361, Trần Thùy Phương, Data Science 65A, st6500361@onlineUniversity.com, 01186093988
+st6500362, Hà Thị Thanh Hương, Information Technology 65B, st6500362@onlineUniversity.com, 05437563798
+st6600363, Đinh Hoàng Phương, Information Technology 66D, st6600363@onlineUniversity.com, 08914322711
+st6600364, Trần Bảo Long, Information Technology 66D, st6600364@onlineUniversity.com, 02813403524
+st6500365, Hoàng Minh Quang, Data Science 65D, st6500365@onlineUniversity.com, 04144147834
+st6500366, Phan Xuân Hưng, Data Science 65A, st6500366@onlineUniversity.com, 08359289248
+st6700367, Dương Vân Anh, Data Science 67C, st6700367@onlineUniversity.com, 07328979093
+st6600368, Đỗ Văn Quyết, Information Technology 66D, st6600368@onlineUniversity.com, 01044040408
+st6500369, Hà Mai Phương, Information Systems 65C, st6500369@onlineUniversity.com, 06141885881
+st6600370, Lê Xuân Mai Hoa, Artificial Intelligence 66A, st6600370@onlineUniversity.com, 03609255464
+st6700371, Lê Xuân Mai Hoa, Information Systems 67D, st6700371@onlineUniversity.com, 01771279358
+st6700372, Lê Ngọc Hà, Artificial Intelligence 67A, st6700372@onlineUniversity.com, 03135092227
+st6700373, Bùi Xuân Vũ, Information Systems 67B, st6700373@onlineUniversity.com, 09943060029
+st6500374, Hoàng Ngọc Hà, Data Science 65D, st6500374@onlineUniversity.com, 06178251167
+st6600375, Trần Thu Huyền, Artificial Intelligence 66D, st6600375@onlineUniversity.com, 03255965904
+st6700376, Hoàng Văn Quyết, Information Systems 67B, st6700376@onlineUniversity.com, 08223563482
+st6700377, Lê Bảo Long, Artificial Intelligence 67B, st6700377@onlineUniversity.com, 04946985527
+st6500378, Phạm Ngọc Hà, Information Systems 65C, st6500378@onlineUniversity.com, 09709514854
+st6700379, Bùi Hải Đăng, Artificial Intelligence 67D, st6700379@onlineUniversity.com, 08535038282
+st6500380, Nguyễn Thu Huyền, Information Technology 65D, st6500380@onlineUniversity.com, 05818001587
+st6600381, Huỳnh Thùy Phương, Information Systems 66A, st6600381@onlineUniversity.com, 03532817607
+st6700382, Dương Quốc Cường, Artificial Intelligence 67D, st6700382@onlineUniversity.com, 05812569377
+st6500383, Vũ Lê Dũng, Data Science 65C, st6500383@onlineUniversity.com, 04888991351
+st6600384, Phan Đình Tuấn, Information Systems 66D, st6600384@onlineUniversity.com, 06739609686
+st6500385, Dương Dũng, Artificial Intelligence 65C, st6500385@onlineUniversity.com, 06596332067
+st6600386, Dương Vân Anh, Information Technology 66C, st6600386@onlineUniversity.com, 07018134312
+st6500387, Hoàng Văn Minh, Data Science 65A, st6500387@onlineUniversity.com, 07078681735
+st6500388, Hà Thị Lan, Information Systems 65C, st6500388@onlineUniversity.com, 08867506541
+st6500389, Dương Văn Công, Artificial Intelligence 65D, st6500389@onlineUniversity.com, 05262014674
+st6700390, Hoàng Khắc Dương, Artificial Intelligence 67A, st6700390@onlineUniversity.com, 03989159812
+st6500391, Đỗ Phương Trang, Information Technology 65A, st6500391@onlineUniversity.com, 02747361972
+st6500392, Bùi Huỳnh Như, Artificial Intelligence 65D, st6500392@onlineUniversity.com, 05546961783
+st6700393, Đỗ Quỳnh Anh, Artificial Intelligence 67C, st6700393@onlineUniversity.com, 02739812476
+st6500394, Phan Xuân Vũ, Information Technology 65B, st6500394@onlineUniversity.com, 01843167851
+st6500395, Bùi Minh Tâm, Data Science 65A, st6500395@onlineUniversity.com, 09552374483
+st6600396, Bùi Văn Kiệt, Data Science 66B, st6600396@onlineUniversity.com, 02807096132
+st6700397, Hà Văn Quyết, Data Science 67A, st6700397@onlineUniversity.com, 05491535936
+st6700398, Đinh Nhật Linh, Artificial Intelligence 67A, st6700398@onlineUniversity.com, 02932828733
+st6500399, Hoàng Minh Quang, Data Science 65D, st6500399@onlineUniversity.com, 06132997053
+st6500400, Trần Mai Hoa, Information Technology 65C, st6500400@onlineUniversity.com, 06199312444
+st6500401, Nguyễn Thị Hảo, Artificial Intelligence 65B, st6500401@onlineUniversity.com, 09891772123
+st6700402, Hoàng Thị Hảo, Data Science 67A, st6700402@onlineUniversity.com, 01546675909
+st6700403, Phạm Mai Hoa, Information Systems 67B, st6700403@onlineUniversity.com, 03408152718
+st6700404, Phạm Thu Thủy, Data Science 67A, st6700404@onlineUniversity.com, 01565780868
+st6500405, Hoàng Minh Tâm, Data Science 65D, st6500405@onlineUniversity.com, 05187243748
+st6500406, Phan Hoàng Phương, Data Science 65A, st6500406@onlineUniversity.com, 02235087857
+st6500407, Bùi Thị Hảo, Information Systems 65A, st6500407@onlineUniversity.com, 02812275726
+st6500408, Đinh Tố Nhi, Information Systems 65A, st6500408@onlineUniversity.com, 09957073022
+st6500409, Phạm Văn Kiệt, Artificial Intelligence 65C, st6500409@onlineUniversity.com, 02311042881
+st6500410, Phạm Tiến Duy, Information Systems 65B, st6500410@onlineUniversity.com, 01993860365
+st6600411, Phạm Phương Trang, Data Science 66C, st6600411@onlineUniversity.com, 02986898284
+st6500412, Trần Thu Thủy, Data Science 65A, st6500412@onlineUniversity.com, 06093903064
+st6500413, Hoàng Khắc Dương, Artificial Intelligence 65D, st6500413@onlineUniversity.com, 05447073125
+st6500414, Phạm Thị Hương, Information Systems 65B, st6500414@onlineUniversity.com, 07163335111
+st6600415, Huỳnh Quỳnh Anh, Information Systems 66B, st6600415@onlineUniversity.com, 08788768768
+st6700416, Phan Quốc Cường, Information Systems 67C, st6700416@onlineUniversity.com, 02366379655
+st6500417, Huỳnh Tiến Duy, Artificial Intelligence 65C, st6500417@onlineUniversity.com, 08662171469
+st6500418, Nguyễn Ngọc Hà, Data Science 65A, st6500418@onlineUniversity.com, 07462338227
+st6700419, Phạm Tố Như, Artificial Intelligence 67C, st6700419@onlineUniversity.com, 06537194441
+st6500420, Hoàng Minh Quang, Information Technology 65D, st6500420@onlineUniversity.com, 09578845330
+st6600421, Bùi Văn Minh, Information Technology 66A, st6600421@onlineUniversity.com, 04913982394
+st6700422, Bùi Bảo Long, Data Science 67C, st6700422@onlineUniversity.com, 01339038439
+st6500423, Nguyễn Thúy Vân, Information Systems 65A, st6500423@onlineUniversity.com, 09675036172
+st6600424, Vũ Lê Quỳnh Anh, Information Systems 66A, st6600424@onlineUniversity.com, 05102660015
+st6500425, Vũ Lê Quỳnh Anh, Data Science 65B, st6500425@onlineUniversity.com, 09188647452
+st6600426, Vũ Lê Đình Bắc, Artificial Intelligence 66A, st6600426@onlineUniversity.com, 02128329684
+st6700427, Lê Văn An, Information Systems 67A, st6700427@onlineUniversity.com, 07786567890
+st6500428, Lê Xuân Trung Kiên, Information Systems 65D, st6500428@onlineUniversity.com, 03222364453
+st6600429, Huỳnh Tú Anh, Information Technology 66B, st6600429@onlineUniversity.com, 06118742522
+st6700430, Lê Ngọc Hà, Information Systems 67D, st6700430@onlineUniversity.com, 01751172744
+st6600431, Đỗ Đình Bắc, Data Science 66B, st6600431@onlineUniversity.com, 02408382748
+st6500432, Hoàng Thu Huyền, Data Science 65D, st6500432@onlineUniversity.com, 02835755946
+st6700433, Trần Xuân Vũ, Information Systems 67B, st6700433@onlineUniversity.com, 06605306704
+st6500434, Hoàng Hoàng Phương, Information Systems 65C, st6500434@onlineUniversity.com, 06515829200
+st6500435, Phạm Phương Thúy, Data Science 67DArtificial Intelligence 65A, st6500435@onlineUniversity.com, 08911259763
+st6600436, Lê Ngân Uyên, Data Science 66A, st6600436@onlineUniversity.com, 01848323676
+st6600437, Trần Hải Đăng, Artificial Intelligence 66C, st6600437@onlineUniversity.com, 09535740592
+st6500438, Hoàng Thị Thanh Hương, Information Technology 65C, st6500438@onlineUniversity.com, 09994802147
+st6600439, Hoàng Tố Như, Information Technology 66A, st6600439@onlineUniversity.com, 05551569923
+st6600440, Huỳnh Xuân Hưng, Information Systems 66B, st6600440@onlineUniversity.com, 04839029652
+st6500441, Lê Xuân Ánh Dương, Information Systems 65B, st6500441@onlineUniversity.com, 06457200992
+st6600442, Lê Xuân Thu Huyền, Information Systems 66D, st6600442@onlineUniversity.com, 03541645201
+st6500443, Dương Phương Trang, Information Technology 65D, st6500443@onlineUniversity.com, 03954985145
+st6500444, Hà Ánh Như, Information Technology 65D, st6500444@onlineUniversity.com, 03075111896
+st6600445, Vũ Lê Mai Anh, Artificial Intelligence 66D, st6600445@onlineUniversity.com, 03137251282
+st6600446, Hà Thị Lan, Information Technology 66B, st6600446@onlineUniversity.com, 06166209687
+st6700447, Đỗ Mai Linh, Data Science 67B, st6700447@onlineUniversity.com, 02177485052
+st6500448, Phan Văn Minh, Data Science 65C, st6500448@onlineUniversity.com, 07746679991
+st6500449, Huỳnh Mai Anh, Artificial Intelligence 65D, st6500449@onlineUniversity.com, 07532149510
+st6500450, Hà Ánh Như, Artificial Intelligence 65D, st6500450@onlineUniversity.com, 06792394646
+st6700451, Hoàng Văn Việt, Artificial Intelligence 67A, st6700451@onlineUniversity.com, 01089898425
+st6600452, Đinh Ánh Dương, Data Science 66A, st6600452@onlineUniversity.com, 05611563487
+st6600453, Hà Tiến Duy, Artificial Intelligence 66D, st6600453@onlineUniversity.com, 01521815711
+st6600454, Hoàng Hữu Phước, Artificial Intelligence 66B, st6600454@onlineUniversity.com, 03461801243
+st6500455, Dương Mai Anh, Artificial Intelligence 65C, st6500455@onlineUniversity.com, 05797661317
+st6600456, Dương Thị Ngọc, Information Technology 66D, st6600456@onlineUniversity.com, 05997791883
+st6600457, Đỗ Hoàng Phương, Data Science 66C, st6600457@onlineUniversity.com, 07797030104
+st6700458, Hà Minh Quang, Data Science 67B, st6700458@onlineUniversity.com, 04823628601
+st6500459, Vũ Lê Trung Kiên, Information Systems 65A, st6500459@onlineUniversity.com, 04256828044
+st6500460, Đỗ Tú Anh, Data Science 65A, st6500460@onlineUniversity.com, 08645129397
+st6500461, Bùi Văn Tú, Data Science 65C, st6500461@onlineUniversity.com, 06389991964
+st6500462, Bùi Ánh Như, Artificial Intelligence 65D, st6500462@onlineUniversity.com, 04306458829
+st6500463, Bùi Thùy Linh, Artificial Intelligence 65C, st6500463@onlineUniversity.com, 09439910705
+st6500464, Bùi Văn Bình, Information Systems 65D, st6500464@onlineUniversity.com, 06018319765
+st6500465, Trần Hải Đăng, Data Science 67DArtificial Intelligence 65A, st6500465@onlineUniversity.com, 07559609365
+st6600466, Bùi Nhật Cường, Data Science 66A, st6600466@onlineUniversity.com, 07485820043
+st6500467, Trần Ngân Uyên, Data Science 65A, st6500467@onlineUniversity.com, 02003804642
+st6700468, Lê Xuân Quang Anh, Information Technology 67B, st6700468@onlineUniversity.com, 04132954287
+st6500469, Bùi Văn Kiệt, Data Science 65B, st6500469@onlineUniversity.com, 05063111354
+st6600470, Phan Tú Anh, Data Science 66A, st6600470@onlineUniversity.com, 06891650167
+st6600471, Nguyễn Hoàng Phương, Data Science 66C, st6600471@onlineUniversity.com, 05812688777
+st6600472, Huỳnh Tố Như, Information Technology 66D, st6600472@onlineUniversity.com, 03888560300
+st6600473, Phạm Tú Anh, Artificial Intelligence 66C, st6600473@onlineUniversity.com, 05325122473
+st6600474, Hà Ánh Như, Information Technology 66C, st6600474@onlineUniversity.com, 06699004296
+st6500475, Đỗ Huỳnh Như, Data Science 67DArtificial Intelligence 65A, st6500475@onlineUniversity.com, 04885476996
+st6500476, Lê Uyển Vân, Artificial Intelligence 65C, st6500476@onlineUniversity.com, 02405302297
+st6600477, Bùi Xuân Vũ, Data Science 66C, st6600477@onlineUniversity.com, 08566125898
+st6500478, Hà Minh Quang, Information Systems 65D, st6500478@onlineUniversity.com, 04895401214
+st6700479, Hà Văn Quyết, Information Systems 67A, st6700479@onlineUniversity.com, 01108703942
+st6500480, Hà Mai Linh, Data Science 65D, st6500480@onlineUniversity.com, 07176983085
+st6500481, Bùi Ngân Uyên, Information Technology 65D, st6500481@onlineUniversity.com, 03499255705
+st6700482, Lê Thùy Phương, Information Systems 67C, st6700482@onlineUniversity.com, 09364641882
+st6700483, Lê Dũng, Artificial Intelligence 67B, st6700483@onlineUniversity.com, 08469425502
+st6700484, Lê Ánh Như, Artificial Intelligence 67B, st6700484@onlineUniversity.com, 01424605207
+st6600485, Hoàng Xuân Vũ, Information Systems 66B, st6600485@onlineUniversity.com, 06183620096
+st6600486, Phan Vân Anh, Data Science 66C, st6600486@onlineUniversity.com, 02547757483
+st6500487, Hoàng Thị Ngọc, Information Technology 65C, st6500487@onlineUniversity.com, 06262102138
+st6500488, Trần Mai Anh, Information Technology 65B, st6500488@onlineUniversity.com, 06194603502
+st6700489, Phạm Văn Bình, Artificial Intelligence 67C, st6700489@onlineUniversity.com, 08296437999
+st6500490, Lê Xuân Thị Lan, Information Systems 65B, st6500490@onlineUniversity.com, 08588060328
+st6600491, Đinh Phương Thúy, Information Technology 66D, st6600491@onlineUniversity.com, 09343024672
+st6500492, Nguyễn Ngân Uyên, Information Systems 65B, st6500492@onlineUniversity.com, 01363952744
+st6700493, Bùi Văn Bình, Information Systems 67A, st6700493@onlineUniversity.com, 05598214485
+st6700494, Trần Ánh Dương, Artificial Intelligence 67A, st6700494@onlineUniversity.com, 06847596003
+st6700495, Vũ Lê Văn Việt, Information Systems 67A, st6700495@onlineUniversity.com, 09279877922
+st6600496, Phan Văn Bình, Information Systems 66C, st6600496@onlineUniversity.com, 04922591270
+st6600497, Đỗ Văn An, Information Systems 66B, st6600497@onlineUniversity.com, 03765323467
+st6500498, Bùi Bảo Long, Information Technology 65A, st6500498@onlineUniversity.com, 04986402436
+st6700499, Lê Mai Anh, Artificial Intelligence 67C, st6700499@onlineUniversity.com, 01971639105

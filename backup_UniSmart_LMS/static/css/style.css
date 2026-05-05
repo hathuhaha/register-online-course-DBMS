@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+:root { --primary: #4e73df; --success: #1cc88a; --info: #36b9cc; --warning: #f6c23e; --danger: #e74a3b; --dark: #2c3e50; --light-bg: #f8f9fc; }
+body { font-family: 'Inter', sans-serif; background-color: var(--light-bg); color: #5a5c69; }
+.sidebar { background: linear-gradient(180deg, var(--primary) 10%, #224abe 100%); min-height: 100vh; position: sticky; top: 0; }
+.sidebar .brand { color: #fff; font-weight: 700; font-size: 1.5rem; letter-spacing: 2px; padding: 20px; border-bottom: 1px solid rgba(255,255,255,0.1); }
+.sidebar .nav-link { color: rgba(255, 255, 255, 0.8); font-weight: 500; padding: 15px 20px; border-radius: 8px; margin: 5px 15px; transition: all 0.3s ease; }
+.sidebar .nav-link:hover { background: rgba(255,255,255,0.2); color: #fff; transform: translateX(5px); }
+.glass-card { background: #fff; border-radius: 15px; box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15); padding: 25px; margin-bottom: 25px; }
+.badge-soft-primary { background-color: rgba(78, 115, 223, 0.1); color: var(--primary); }
+.lecture-list li { border-left: 3px solid var(--info); }
+.assignment-list li { border-left: 3px solid var(--warning); }

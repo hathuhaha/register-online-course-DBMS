@@ -1,0 +1,87 @@
+{% extends 'layout.html' %}
+{% block header_title %}Quản lý Môn học{% endblock %}
+{% block content %}
+
+<div class="glass-card mb-4 d-flex justify-content-between align-items-center">
+    <!-- Form chọn Môn học để xem chi tiết -->
+    <form action="/courses" method="GET" class="d-flex w-50 gap-2">
+        <select name="course_id" class="form-select shadow-sm border-0" onchange="this.form.submit()">
+            <option value="" disabled {% if not selected_course %}selected{% endif %}>-- Chọn môn học để xem thông tin --</option>
+            {% for c in all_courses %}
+                <option value="{{ c.CourseID }}" {% if selected_course and selected_course.CourseID == c.CourseID %}selected{% endif %}>
+                    {{ c.CourseID }} - {{ c.CourseName }}
+                </option>
+            {% endfor %}
+        </select>
+    </form>
+    
+    <button class="btn btn-primary shadow-sm" data-bs-toggle="modal" data-bs-target="#addCourseModal"><i class='bx bx-plus'></i> Thêm Môn mới</button>
+</div>
+
+<!-- KHU VỰC HIỂN THỊ CHI TIẾT (Chỉ hiện khi đã chọn 1 môn) -->
+{% if selected_course %}
+<div class="glass-card border-top border-4 border-primary">
+    <h4 class="text-dark fw-bold border-bottom pb-3 mb-3">
+        <i class='bx bxs-book text-primary'></i> {{ selected_course.CourseName }} 
+        <span class="badge bg-primary fs-6">{{ selected_course.CourseID }}</span>
+    </h4>
+    <p class="text-muted">{{ selected_course.Description }}</p>
+    
+    <div class="row mt-4">
+        <!-- Cột Lecture -->
+        <div class="col-md-5">
+            <h6 class="fw-bold text-info"><i class='bx bx-list-ul'></i> Bài giảng (Lectures)</h6>
+            <ul class="list-group list-group-flush lecture-list">
+                {% for l in selected_course.lectures %}
+                <li class="list-group-item bg-transparent">
+                    <div class="fw-bold">{{ l.Title }}</div><small class="text-muted">ID: {{ l.LectureID }}</small>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        
+        <!-- Cột Phân công lớp -->
+        <div class="col-md-7">
+            <h6 class="fw-bold text-warning"><i class='bx bxs-school'></i> Các lớp tín chỉ đã mở</h6>
+            <ul class="list-group list-group-flush assignment-list mb-3">
+                {% for a in selected_course.assignments %}
+                <li class="list-group-item bg-transparent d-flex justify-content-between align-items-center">
+                    <div><span class="fw-bold">{{ a.AssignmentID }}</span><br><small class="text-muted">Ca: {{ a.Shift }}</small></div>
+                    <span class="badge badge-soft-primary px-3 py-2">{{ a.InstructorName }}</span>
+                </li>
+                {% endfor %}
+            </ul>
+            
+            <!-- Form mở lớp mới -->
+            <form action="/assign_class" method="POST" class="bg-light p-3 rounded-3 shadow-sm row g-2 align-items-center">
+                <input type="hidden" name="course_id" value="{{ selected_course.CourseID }}">
+                <div class="col-md-5">
+                    <select name="instructor_id" class="form-select border-0 shadow-sm" required>
+                        <option value="" disabled selected>-- Chọn GV --</option>
+                        {% for i in instructors_list %}<option value="{{ i.InstructorID }}">{{ i.InstructorName }}</option>{% endfor %}
+                    </select>
+                </div>
+                <div class="col-md-4"><input type="text" name="shift" class="form-control border-0 shadow-sm" placeholder="Ca (Mon-2)" required></div>
+                <div class="col-md-3"><button type="submit" class="btn btn-success w-100 shadow-sm">Mở lớp</button></div>
+            </form>
+        </div>
+    </div>
+</div>
+{% else %}
+<div class="alert alert-info text-center shadow-sm">
+    <i class='bx bx-info-circle'></i> Vui lòng chọn một môn học từ danh sách thả xuống ở trên để xem chi tiết.
+</div>
+{% endif %}
+
+<!-- Modal Thêm Môn (Giữ nguyên) -->
+<div class="modal fade" id="addCourseModal">
+  <div class="modal-dialog"><div class="modal-content border-0 rounded-4 shadow">
+    <div class="modal-header bg-primary text-white border-0 rounded-top-4"><h5 class="modal-title">Thêm Môn Học</h5><button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button></div>
+    <form action="/courses" method="POST"><div class="modal-body p-4">
+        <input type="hidden" name="add_course" value="1">
+        <div class="mb-3"><label class="form-label text-muted fw-bold">Tên môn học</label><input type="text" name="course_name" class="form-control" required></div>
+        <div class="mb-3"><label class="form-label text-muted fw-bold">Mô tả</label><textarea name="description" class="form-control" rows="3"></textarea></div>
+    </div><div class="modal-footer border-0"><button type="submit" class="btn btn-primary w-100">Lưu</button></div></form>
+  </div></div>
+</div>
+{% endblock %}

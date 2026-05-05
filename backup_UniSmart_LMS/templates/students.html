@@ -1,0 +1,81 @@
+{% extends 'layout.html' %}
+{% block header_title %}Quản lý Sinh viên{% endblock %}
+{% block content %}
+
+<div class="glass-card mb-4 d-flex justify-content-between align-items-center">
+    <form action="/students" method="GET" class="d-flex w-50 gap-2">
+        <input type="text" name="search" class="form-control shadow-sm border-0" placeholder="Tìm kiếm tên..." value="{{ search }}">
+        <button class="btn btn-primary shadow-sm"><i class='bx bx-search'></i></button>
+    </form>
+    <button class="btn btn-success shadow-sm" data-bs-toggle="modal" data-bs-target="#addStudentModal">
+        <i class='bx bx-user-plus'></i> Nhập học Sinh viên mới
+    </button>
+</div>
+
+<div class="glass-card p-0 overflow-hidden">
+    <table class="table table-hover mb-0 align-middle">
+        <thead class="bg-light">
+            <tr>
+                <th class="ps-4">Mã SV</th>
+                <th>Họ và Tên</th>
+                <th>Email liên hệ</th>
+                <th>Điện thoại</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for s in students %}
+            <tr>
+                <td class="ps-4 fw-bold text-primary">{{ s.LearnerID }}</td>
+                <td class="fw-bold">{{ s.LearnerName }}</td>
+                <td>{{ s.Email }}</td>
+                <td>{{ s.PhoneNumber }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+<!-- Phân trang -->
+<div class="d-flex justify-content-center mt-3">
+    <a href="/students?page={{ page - 1 if page > 1 else 1 }}&search={{ search }}" class="btn btn-light shadow-sm me-2">Trước</a>
+    <span class="btn btn-primary shadow-sm">{{ page }}</span>
+    <a href="/students?page={{ page + 1 }}&search={{ search }}" class="btn btn-light shadow-sm ms-2">Sau</a>
+</div>
+
+<!-- Modal Thêm Sinh Viên -->
+<div class="modal fade" id="addStudentModal">
+  <div class="modal-dialog">
+    <div class="modal-content border-0 rounded-4 shadow">
+      <div class="modal-header bg-success text-white border-0 rounded-top-4">
+        <h5 class="modal-title">Thêm Sinh Viên Mới</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+      </div>
+      <form action="/students" method="POST">
+          <div class="modal-body p-4">
+              <div class="row g-3">
+                  <div class="col-md-4">
+                      <label class="form-label text-muted fw-bold">Khóa (VD: 67)</label>
+                      <input type="text" name="khoa" class="form-control" required>
+                  </div>
+                  <div class="col-md-8">
+                      <label class="form-label text-muted fw-bold">Họ và Tên</label>
+                      <input type="text" name="name" class="form-control" required>
+                  </div>
+                  <div class="col-md-12">
+                      <label class="form-label text-muted fw-bold">Email (Phải duy nhất)</label>
+                      <input type="email" name="email" class="form-control" required>
+                  </div>
+                  <div class="col-md-12">
+                      <label class="form-label text-muted fw-bold">Số điện thoại</label>
+                      <input type="text" name="phone" class="form-control" required>
+                  </div>
+              </div>
+          </div>
+          <div class="modal-footer border-0">
+            <button type="submit" class="btn btn-success w-100">Lưu hồ sơ</button>
+          </div>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}
