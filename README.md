@@ -102,7 +102,7 @@ pip install flask mysql-connector-python
 
 ## 📊 Kiểm thử hệ thống (Stress Testing)
 Hệ thống đã được kiểm thử với khối lượng dữ liệu lớn được sinh ra từ file `sample_data_generation.ipynb`:
-*   **500** hồ sơ sinh viên với mã ID chuẩn hóa[cite: 14].
+*   **500** hồ sơ sinh viên với mã ID chuẩn hóa.
 *   **16** môn học đa dạng và **26** giảng viên thuộc nhiều chuyên ngành.
 *   Hàng trăm bản ghi đăng ký được sắp xếp theo thời gian để kiểm tra logic chống trùng lịch học.
 
