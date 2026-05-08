@@ -63,27 +63,27 @@ Hệ thống được tổ chức theo cấu trúc module rõ ràng để dễ d
 ## 🚀 Các tính năng nổi bật
 
 ### 1. Dashboard Thống kê thời gian thực
-*   Cung cấp cái nhìn tổng quan về tổng số sinh viên, giảng viên và khóa học[cite: 5, 12].
-*   Sử dụng `vw_course_summary` để tổng hợp số lượng lớp học và giảng viên mỗi môn một cách nhanh chóng[cite: 5, 11].
+*   Cung cấp cái nhìn tổng quan về tổng số sinh viên, giảng viên và khóa học.
+*   Sử dụng `vw_course_summary` để tổng hợp số lượng lớp học và giảng viên mỗi môn một cách nhanh chóng.
 
 ### 2. Quản lý Thực thể & Tự động hóa
-*   Hỗ trợ đầy đủ CRUD cho Giảng viên, Sinh viên và Khóa học[cite: 13].
-*   Tích hợp thuật toán tự động sinh mã định danh (ID) thông minh, ví dụ: mã sinh viên bắt đầu bằng `st` kèm theo khóa học (Cohort)[cite: 1, 9].
+*   Hỗ trợ đầy đủ CRUD cho Giảng viên, Sinh viên và Khóa học.
+*   Tích hợp thuật toán tự động sinh mã định danh (ID) thông minh, ví dụ: mã sinh viên bắt đầu bằng `st` kèm theo khóa học (Cohort).
 
 ### 3. Cổng Đăng ký & Kiểm tra Ràng buộc Logic
-*   Cho phép sinh viên tra cứu thời khóa biểu cá nhân và danh sách các lớp đang mở[cite: 6].
-*   Tính năng **Conflict Check**: Hệ thống tự động kiểm tra trùng ca học (`Shift`) bằng cách truy vấn View `vw_enrollment_info` trước khi ghi nhận đăng ký mới, đảm bảo tính toàn vẹn lịch học[cite: 1, 6, 12].
+*   Cho phép sinh viên tra cứu thời khóa biểu cá nhân và danh sách các lớp đang mở.
+*   Tính năng **Conflict Check**: Hệ thống tự động kiểm tra trùng ca học (`Shift`) bằng cách truy vấn View `vw_enrollment_info` trước khi ghi nhận đăng ký mới, đảm bảo tính toàn vẹn lịch học.
 
 ### 4. Tối ưu hóa Database-First
-*   Sử dụng các Database Views (`vw_assignment_details`, `vw_instructor_stats`,...) để loại bỏ hơn 30% các câu lệnh JOIN phức tạp trong mã nguồn Python[cite: 11, 12].
+*   Sử dụng các Database Views (`vw_assignment_details`, `vw_instructor_stats`,...) để loại bỏ hơn 30% các câu lệnh JOIN phức tạp trong mã nguồn Python.
 
 ---
 
 ## ⚙️ Hướng dẫn thiết lập
 
 ### 1. Khởi tạo Cơ sở dữ liệu
-1.  Truy cập MySQL Server và thực thi file `sql/script.sql` để tạo database `UniversityDB` cùng các bảng liên quan[cite: 10].
-2.  Thực thi file `sql/create_views.sql` để thiết lập các khung nhìn tối ưu[cite: 11].
+1.  Truy cập MySQL Server và thực thi file `sql/script.sql` để tạo database `UniversityDB` cùng các bảng liên quan.
+2.  Thực thi file `sql/create_views.sql` để thiết lập các khung nhìn tối ưu.
 
 ### 2. Cài đặt môi trường Python
 ```bash
@@ -91,20 +91,20 @@ pip install flask mysql-connector-python
 ```
 
 ### 3. Cấu hình và Khởi chạy
-1.  Cập nhật thông tin kết nối Database (`host`, `user`, `password`) trong file `backup_UniSmart_LMS/app.py`[cite: 1].
+1.  Cập nhật thông tin kết nối Database (`host`, `user`, `password`) trong file `backup_UniSmart_LMS/app.py`.
 2.  Chạy ứng dụng:
     ```bash
     python backup_UniSmart_LMS/app.py
     ```
-3.  Truy cập hệ thống tại: `http://127.0.0.1:5000`[cite: 1].
+3.  Truy cập hệ thống tại: `http://127.0.0.1:5000`.
 
 ---
 
 ## 📊 Kiểm thử hệ thống (Stress Testing)
-Hệ thống đã được kiểm thử với khối lượng dữ liệu lớn được sinh ra từ file `sample_data_generation.ipynb`[cite: 14]:
+Hệ thống đã được kiểm thử với khối lượng dữ liệu lớn được sinh ra từ file `sample_data_generation.ipynb`:
 *   **500** hồ sơ sinh viên với mã ID chuẩn hóa[cite: 14].
-*   **16** môn học đa dạng và **26** giảng viên thuộc nhiều chuyên ngành[cite: 14].
-*   Hàng trăm bản ghi đăng ký được sắp xếp theo thời gian để kiểm tra logic chống trùng lịch học[cite: 14].
+*   **16** môn học đa dạng và **26** giảng viên thuộc nhiều chuyên ngành.
+*   Hàng trăm bản ghi đăng ký được sắp xếp theo thời gian để kiểm tra logic chống trùng lịch học.
 
 ---
 *Dự án cuối kỳ được thực hiện bởi **Hà Thu Hà** - Khoa Khoa học dữ liệu và Trí tuệ nhân tạo, Đại học Kinh tế Quốc dân (NEU).*
